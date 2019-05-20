@@ -1,10 +1,6 @@
 from flask import Flask
 from flask_bootstrap import Bootstrap
 from config import config_options
-from flask import Blueprint
-
-main = BluePrint( "main",__name__ )
-
 bootstrap = Bootstrap()
 
 def create_app(config_name):
